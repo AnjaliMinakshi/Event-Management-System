@@ -2,22 +2,29 @@
 This project is a web-based Event Management System designed to manage memberships, transactions, and reports with role-based access control for Admin and Users.  The application follows a structured flow (as per the provided flowchart) and ensures proper validation, session handling, and secure authentication.
 
 🚀 Key Features
+
 🔐 Authentication & Security
 User Login/Register system
 Passwords are securely hidden while typing
 Proper session management implemented
+
 👤 Role-Based Access
+
 Admin
 Access to:
 Maintenance Module
 Reports Module
 Transactions Module
+
 User
 Access to:
 Reports Module
 Transactions Module
+
 ❌ No access to Maintenance Module
+
 🛠️ Modules
+
 1. Maintenance Module (Admin Only)
 Mandatory module
 Acts as the base for:
